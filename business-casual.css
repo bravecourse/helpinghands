@@ -1,0 +1,332 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.5 (https://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Roboto'; /* change font here for body text */
+
+  /*background color of website */
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 1))), url("../img/bg.jpg");
+  
+  background: linear-gradient(rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway'; /* change font here for header text */
+}
+
+p { /* attributes for what the paragraph text should look like */
+
+  line-height: 1.75;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.site-heading { /* attributes for site heading */
+  margin-top: 5rem; 
+  margin-bottom: 5rem;
+  line-height: 1;
+  font-family: 'Raleway';
+}
+
+.site-heading .site-heading-upper {
+  display: block;
+  font-size: 2rem;
+  font-weight: 200;
+  color: #004369; /* color of upper header text */
+}
+
+.site-heading .site-heading-lower {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #DB1F48; /* color of lower header text */
+  text-transform: uppercase; /* capitalize header text */
+}
+
+/* change content block background color; currently white */
+.page-section-light {
+  background-color: #ffffff;
+}
+
+/* change content block background color; currently tan */
+.page-section-dark {
+  background-color: #696969;
+}
+
+.section-heading {
+  text-transform: uppercase;
+}
+
+
+/* color and text attributes of CTA boxes that align left*/
+.section-heading .section-heading-upper {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.section-heading .section-heading-lower{
+  display: block;
+  font-size: 3rem;
+  color: #000000; /* color of lower header text */
+  font-weight: 600;
+}
+
+/* color and text attributes of CTA boxes that align left*/
+.section-heading .section-heading-left-upper {
+  display: block;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+.section-heading .section-heading-left-lower{
+  display: block;
+  font-size: 3rem;
+  text-align: left;
+  color: #000000; /* color of lower header text */
+  font-weight: 600;
+}
+
+/* color and text attributes of CTA boxes that align right */
+.section-heading .section-heading-right-upper {
+  display: block;
+  font-size: 1rem;
+  text-align: right;
+  font-weight: 500;
+}
+
+.section-heading .section-heading-right-lower{
+  display: block;
+  font-size: 3rem;
+  text-align: right;
+  color: #000000; /* color of lower header text */
+  font-weight: 600;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+#mainNav {
+  background-color: rgba(0, 67, 105, 0.9); /* change nav bar background color here. Remember that
+  colors can be in hex or rgba format. The hex code for this color is #5d6c89 */
+  font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+  color: #DB1F48; /* when the web app is adjusted, the website header responds to this attribute */
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 800; /* font-weight tells the text how thick or thin the text should be. The higher the number,
+  the more bold the text will look */
+}
+
+/* this tells what color the selected page on the nav bar should be */
+#mainNav .navbar-nav .nav-item.active .nav-link {
+  color: #01949A;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  /* this tells what color the text will be if you hover over it */
+  #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+    color: #DB1F48;
+  }
+}
+
+.btn-xl {
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.intro {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-img-right {
+    width: 75%; /* changes size of image */
+    float: right; /* changes alignment of image */
+    padding-bottom: 5rem;
+  }
+
+  .intro .intro-img-left {
+    width: 75%; /* changes size of image */
+    float: left; /* changes alignment of image */
+    padding-bottom: 5rem;
+
+  }
+
+  .intro .intro-text-left {
+    left: 0;
+    width: 50%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+
+  .intro .intro-text-right {
+    right: 0;
+    width: 50%;
+    margin-top: 3rem;
+    position: absolute;
+  }
+
+  .intro .intro-text .intro-button {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro .intro-text {
+    width: 45%;
+  }
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(1, 148, 154, 1);
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  color: #ffffff;
+}
+
+.cta .cta-inner:before {
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+}
+
+@media (min-width: 992px) {
+  .about-heading .about-heading-img {
+    position: relative;
+    z-index: 0;
+  }
+
+  .about-heading .about-heading-content {
+    margin-top: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+  .product-item .product-item-title {
+    position: relative;    
+    padding-top: 3rem;
+    z-index: 1;
+    margin-bottom: -8rem; /* changes the position of the header text box for product images */
+  }
+  .product-item .product-item-img {
+    position: relative;
+    z-index: 0;
+    max-width: 60vw;
+  }
+  .product-item .product-item-description {
+    position: relative;
+    padding-bottom: 3rem;
+    z-index: 1;
+    margin-top: -5rem; /* changes the position of the description for product images */
+    max-width: 50vw;
+  }
+}
+
+.contact-section-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #DB1F48;;
+
+}
+
+.contact-heading {
+  display: block;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #000000; /* color of lower header text */
+  font-weight: 600;
+}
+
+.team-bio-heading {
+  display: block;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #000000; /* color of lower header text */
+  font-weight: 600;
+}
+
+.team-bio-img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.5rem;
+
+}
+
+.footer {
+  background-color: #004369; /* color for the bottom of the web app */
+}
+
+.text-primary {
+  color: #e6a756 !important;
+}
+
+.bg-primary {
+  background-color: #e6a756 !important;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+}
+
+.btn-primary {
+  background-color: #01949A; /* change button color here */
+  border-color: #01949A;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #DB1F48; /* change what color the button is if you hover your mouse over it */
+  border-color: #DB1F48;
+}
+
+.font-weight-light {
+  font-weight: 100 !important;
+}
